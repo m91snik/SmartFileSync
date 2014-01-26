@@ -18,6 +18,7 @@
         <junit.version>4.11</junit.version>
         <spring-integration.version>3.0.0.RELEASE</spring-integration.version>
         <mockito-all.version>1.9.5</mockito-all.version>
+        <commons-vfs2.version>2.0</commons-vfs2.version>
     </properties>
 
     <dependencyManagement>
@@ -58,6 +59,12 @@
                 <artifactId>mockito-all</artifactId>
                 <version>${mockito-all.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-vfs2</artifactId>
+                <version>${commons-vfs2.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
